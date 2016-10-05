@@ -1,6 +1,6 @@
 +++
 date = "2016-10-04T20:50:45-07:00"
-draft = true
+draft = false
 title = "Drupal Registration v7.x 2.13"
 
 +++
@@ -23,7 +23,7 @@ Registration.
   - Fixed
   - Deployment required
 - Resolved an issue where a blank login page was rendered when viewing a
-  Drupal site (with the Janrain module installed) inside of an iOS WebView 
+  Drupal site (with the Janrain module installed) inside of an iOS WebView
   component. This must be enabled in Settings.
   - New
   - Configuration required
