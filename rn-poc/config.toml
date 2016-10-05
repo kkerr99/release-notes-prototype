@@ -1,3 +1,46 @@
+# Site settings
 baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en-US"
+title = "Simple FAQ Theme for Hugo"
+theme = "hugo-faq-theme"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Menu
+SectionPagesMenu = "main"
+
+	[[menu.main]]
+		name = "Drupal Registration"
+		weight = 10
+		url = "#drupal-registration"
+	[[menu.main]]
+		name = "Backplane Protocol"
+		weight = 20
+		url = "#backplane-protocol"
+	[[menu.main]]
+		name = "Customer Insights"
+		weight = 30
+		url = "#customer-insights"
+	[[menu.main]]
+		name = "Drupal Social Login"
+		weight = 40
+		url = "#drupal-social-login"
+	[[menu.main]]
+		name = "Privacy"
+		weight = 50
+		url = "#privacy"
+	[[menu.main]]
+		name = "Delivery"
+		weight = 60
+		url = "#delivery"
+
+[params]
+
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point
+	# to your site's css in the assets/ directory.
+
+	custom_css = ["css/blue.css"]
