@@ -1,5 +1,5 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "Janrain Release Notes"
+title = "Hugo Themes"
 author = "Steve Francia"
 copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
 canonifyurls = true
@@ -7,4 +7,4 @@ paginate = 3
 
 [params]
   disqusShortname = "your disqus id." # optional
-  toc = false # optional, When set to TRUE this parameter, table of contents appears in all articles.
+  toc = true # optional, When set to TRUE this parameter, table of contents appears in all articles.
