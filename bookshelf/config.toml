@@ -1,3 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Snippets of Literature from The Cannon"
+
+[Params]
+  Author = "Johnny Milton"
