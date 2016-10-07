@@ -1,17 +1,6 @@
 
 <aside class="l-sidebar">
 
-  <section class="panel panel-default">
-    <div class="panel-heading">
-      <div class="panel-title">RECENT RELEASES</div>
-    </div>
-    <div class="list-group">
-      {{ range first 10 .Site.Pages }}
-      <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-      {{ end }}
-    </div>
-  </section>
-
   {{ range $key, $value := .Site.Taxonomies }}
   <section class="panel panel-default">
     <div class="panel-heading">
@@ -24,5 +13,16 @@
     </div>
   </section>
   {{ end }}
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">RECENT RELEASES</div>
+    </div>
+    <div class="list-group">
+      {{ range first 10 .Site.Pages }}
+      <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </section>
 
 </aside>
