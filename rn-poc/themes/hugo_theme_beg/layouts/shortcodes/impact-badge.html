@@ -1,0 +1,5 @@
+<span class="impact-badge">
+{{ if .Get "configuration-required" }}<span class="badge">Configuration Required</span>{{ end }}
+{{ if .Get "deployment-required" }}<span class="badge">Deployment Required</span>{{ end }}
+{{ if .Get "automatic" }}<span class="badge">Automatic</span>{{ end }}
+</span>
