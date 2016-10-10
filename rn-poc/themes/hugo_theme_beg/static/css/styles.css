@@ -300,5 +300,21 @@ article.li.sm>header {
 }
 
 .change-badge {
-  color: red;
-}
+  display: block; }
+  .change-badge .fixed {
+    background-color: orange; }
+  .change-badge .new {
+    background-color: orange; }
+  .change-badge .updated {
+    background-color: orange; }
+  .change-badge .notice {
+    background-color: red; }
+
+.impact-badge {
+  display: block; }
+  .impact-badge .configuration-required {
+    background-color: orange; }
+  .impact-badge .deployment-required {
+    background-color: red; }
+  .impact-badge .automatic {
+    background-color: grey; }
