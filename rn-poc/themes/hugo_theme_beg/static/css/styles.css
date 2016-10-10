@@ -2,7 +2,11 @@ html {
   font-size: 16px;
 }
 
-@media (max-width:  768px)  {
+/* @media (max-width:  768px)  { */
+@media (min-width:  1200px)  {
+  .container {
+    width: 95%;
+  }
   html {
     font-size: 15px;
   }
@@ -30,6 +34,12 @@ h1 { font-size: 1.8rem; line-height: 2rem; margin: 1.5rem 0; }
 h2 { font-size: 1.4rem; line-height: 2rem; margin: 1.5rem 0; }
 h3 { font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; }
 h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
 
 main {
   display: block;
@@ -287,4 +297,8 @@ article.li.sm>header {
 
 .article-body figcaption a {
   color: #263238;
+}
+
+.change-badge {
+  color: red;
 }
