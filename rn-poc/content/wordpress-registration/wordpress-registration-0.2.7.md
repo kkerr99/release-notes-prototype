@@ -8,12 +8,7 @@ categories = [
 
 +++
 
-- The plugin now modifies the language setting for Registration widgets to
-  match the language setting of the site (this may affect translations with
-  names that do not correspond to ISO naming conventions).
-  - New
-  - Automatic
-- The plugin now triggers the `wp_login` action when visitors log in through
-  Janrain.
-  - Fixed
-  - Automatic
+| Change                              |   | Impact  |
+| ----------------------------------- |---| --------|
+| {{< change-badge new="true" >}}  | The plugin now modifies the language setting for Registration widgets to match the language setting of the site (this may affect translations with names that do not correspond to ISO naming conventions). | {{< impact-badge automatic="true" >}} |
+| {{< change-badge fixed="true" >}}  | The plugin now triggers the `wp_login` action when visitors log in through Janrain. | {{< impact-badge automatic="true" >}} |

@@ -8,11 +8,7 @@ categories = [
 
 +++
 
-- Added Odnoklassniki as a native share provider.
-  - New
-  - Configuration required
-- Temporarily reverted share count back to application vs provider based. Also
-  temporarily turned off the `per provider` share count, which will now revert
-  to `combined`.
-  - Notice
-  - Automatic
+| Change                              |   | Impact  |
+| ----------------------------------- |---| --------|
+| {{< change-badge new="true" >}}  | Added Odnoklassniki as a native share provider. | {{< impact-badge configuration-required="true" >}} |
+| {{< change-badge notice="true" >}}  | Temporarily reverted share count back to application vs provider based. Also temporarily turned off the `per provider` share count, which will now revert to `combined`. | {{< impact-badge automatic="true" >}} |

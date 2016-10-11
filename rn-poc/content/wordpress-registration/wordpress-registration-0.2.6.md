@@ -8,8 +8,7 @@ categories = [
 
 +++
 
-- Added WordPress module version number and site name to User-Agent.
-  - Updated
-- Modified some quotation marks for consistent coding practices and to improve
-  functionality in a wider range of browsers.
-  - Updated
+| Change                              |   | Impact  |
+| ----------------------------------- |---| --------|
+| {{< change-badge updated="true" >}}  | Added WordPress module version number and site name to User-Agent. |  |
+| {{< change-badge updated="true" >}}  | Modified some quotation marks for consistent coding practices and to improve functionality in a wider range of browsers. |  |

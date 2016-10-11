@@ -8,9 +8,7 @@ categories = [
 
 +++
 
-- Removed deprecated LinkedIn direct share feature.
-  - Updated
-  - Automatic
-- Fixed issue with Twitter character count for certain URLs.
-  - Fixed
-  - Automatic
+| Change                              |   | Impact  |
+| ----------------------------------- |---| --------|
+| {{< change-badge updated="true" >}}  | Removed deprecated LinkedIn direct share feature. | {{< impact-badge automatic="true" >}} |
+| {{< change-badge fixed="true" >}}  | Fixed issue with Twitter character count for certain URLs. | {{< impact-badge automatic="true" >}} |
