@@ -8,13 +8,8 @@ categories = [
 
 +++
 
-- Removed Native Authentication Provider (Facebook, Google, Twitter)
-  SDK dependencies.
-  - Notice
-  - Deployment Required
-- Dropped support for iOS6. SDK only supports iOS7+ now.
-  - Notice
-  - Deployment Required
-- SDK now supports XCode7.
-  - Updated
-  - Deployment Required
+| Change                              |   | Impact  |
+| ----------------------------------- |---| --------|
+| {{< change-badge notice="true" >}}  | Removed Native Authentication Provider (Facebook, Google, Twitter) SDK dependencies. | {{< impact-badge deployment-required="true" >}} |
+| {{< change-badge notice="true" >}}  | Dropped support for iOS6. SDK only supports iOS7+ now. | {{< impact-badge deployment-required="true" >}} |
+| {{< change-badge updated="true" >}}  | SDK now supports XCode7. | {{< impact-badge deployment-required="true" >}} |
