@@ -302,19 +302,19 @@ article.li.sm>header {
 .change-badge {
   display: block; }
   .change-badge .fixed {
-    background-color: orange; }
+    background-color: #ED6C00; }
   .change-badge .new {
-    background-color: orange; }
+    background-color: #ED6C00; }
   .change-badge .updated {
-    background-color: orange; }
+    background-color: #1C626A; }
   .change-badge .notice {
-    background-color: red; }
+    background-color: #BC2300; }
 
 .impact-badge {
   display: block; }
   .impact-badge .configuration-required {
-    background-color: orange; }
+    background-color: #ED6C00; }
   .impact-badge .deployment-required {
-    background-color: red; }
+    background-color: #BC2300; }
   .impact-badge .automatic {
     background-color: grey; }
