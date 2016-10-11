@@ -1,6 +1,8 @@
 +++
 date = "2016-02-11T11:38:18-07:00"
 title = "Mobile Android 6.0"
+version = "6.0"
+releaseDate = "2016-02-11T11:38:18-07:00"
 
 categories = [
     "Mobile"
